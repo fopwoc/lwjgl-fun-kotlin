@@ -1,0 +1,12 @@
+# Blender 4.0.2 MTL File: 'maxwell.blend'
+# www.blender.org
+
+newmtl dingus
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+map_Kd dingus_nowhiskers.jpg
+
+newmtl whiskers
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd dingus_whiskers.tga.png
