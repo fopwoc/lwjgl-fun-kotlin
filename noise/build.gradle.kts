@@ -24,6 +24,7 @@ dependencies {
         implementation(Preset.minimalOpenGL)
     }
     implementation("org.joml:joml:1.10.5")
+    implementation("de.articdive:jnoise-pipeline:4.1.0")
 
     testImplementation(kotlin("test"))
 }

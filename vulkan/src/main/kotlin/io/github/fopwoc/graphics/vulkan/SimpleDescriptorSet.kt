@@ -20,6 +20,8 @@ open class SimpleDescriptorSet(
     size: Long
 ) : DescriptorSet {
 
+    override var vkDescriptorSet: Long = 0
+
     init {
         MemoryStack.stackPush().use { stack ->
             val device = descriptorPool.device
@@ -52,6 +54,4 @@ open class SimpleDescriptorSet(
             vkUpdateDescriptorSets(device.vkDevice, descrBuffer, null)
         }
     }
-
-    override var vkDescriptorSet: Long
 }

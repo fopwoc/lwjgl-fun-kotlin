@@ -61,7 +61,7 @@ graalvmNative {
 
 dependencies {
     lwjgl {
-        version = Release.`3_3_2`
+        version = Release.`3․3․4`
         implementation(Lwjgl.Preset.minimalVulkan + Lwjgl.Module.shaderc + Lwjgl.Module.assimp + Lwjgl.Module.stb + Lwjgl.Module.vma)
     }
     implementation("org.joml:joml:1.10.5")

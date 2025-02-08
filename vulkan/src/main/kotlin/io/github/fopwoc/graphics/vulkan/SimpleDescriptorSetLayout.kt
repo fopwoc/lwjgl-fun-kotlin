@@ -13,7 +13,7 @@ open class SimpleDescriptorSetLayout(
     binding: Int,
     stage: Int
 ) : DescriptorSetLayout {
-    override val vkDescriptorLayout: Long
+    override var vkDescriptorLayout: Long = 0
 
     init {
         MemoryStack.stackPush().use { stack ->
